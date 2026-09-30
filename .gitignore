@@ -1,0 +1,36 @@
+# Build-Output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Zugangsdaten - niemals hochladen
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Persoenliche Laufdaten (Reports, gesehene Anzeigen, gecachte Adresse)
+python/reports/
+python/state/
+
+# Sicherung der Originaldateien (nicht hochladen)
+_original/
